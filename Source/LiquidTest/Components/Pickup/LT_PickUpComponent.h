@@ -18,6 +18,7 @@ class LIQUIDTEST_API ULT_PickUpComponent : public UActorComponent
 public:	
 	// Sets default values for this component's properties
 	ULT_PickUpComponent();
+	
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)
 	ALT_CharacterBase* Holder;
 

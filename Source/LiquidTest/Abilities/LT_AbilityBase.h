@@ -8,7 +8,7 @@
 #include "LT_AbilityBase.generated.h"
 
 
-/** Delegate called by 'PlayMontageNotify' and 'PlayMontageNotifyWindow' **/
+/** Delegate called by 'PlaageyMontNotify' and 'PlayMontageNotifyWindow' **/
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FLT_NotifyBegin, FName, NotifyName);
 /** Delegate called by 'PlayMontageNotify' and 'PlayMontageNotifyWindow' **/
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FLT_NotifyEnd, FName, NotifyName);

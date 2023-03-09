@@ -16,7 +16,7 @@ class LIQUIDTEST_API ULT_ActorInteractuableDataAsset : public UPrimaryDataAsset
 public:
 	/** The Actor Name */
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Main")
-	FName Actor;
+	FName ActorName;
 	
 	/** The animation to interact with the actor */
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Animation")
