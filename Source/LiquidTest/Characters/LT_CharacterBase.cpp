@@ -1,13 +1,17 @@
 // Copyright Epic Games, Inc. All Rights Reserved.
 
-#include "LiquidTest/Characters/LT_CharacterBase.h"
+#include "LT_CharacterBase.h"
 #include "Camera/CameraComponent.h"
+#include "Components/CapsuleComponent.h"
 #include "Components/InputComponent.h"
+#include "GameFramework/CharacterMovementComponent.h"
+#include "GameFramework/Controller.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "EnhancedInputComponent.h"
 #include "EnhancedInputSubsystems.h"
-#include "Components/CapsuleComponent.h"
-#include "GameFramework/CharacterMovementComponent.h"
+#include "LiquidTest/AbilityEquipment/LT_AbilityEquipment.h"
+#include "LiquidTest/Components/Interaction/LT_InteractionComponent.h"
+#include "LiquidTest/Components/Inventory/LT_InventoryComponent.h"
 
 
 //////////////////////////////////////////////////////////////////////////
@@ -45,6 +49,12 @@ ALT_CharacterBase::ALT_CharacterBase()
 	FollowCamera = CreateDefaultSubobject<UCameraComponent>(TEXT("FollowCamera"));
 	FollowCamera->SetupAttachment(CameraBoom, USpringArmComponent::SocketName); // Attach the camera to the end of the boom and let the boom adjust to match the controller orientation
 	FollowCamera->bUsePawnControlRotation = false; // Camera does not rotate relative to arm
+
+	EquipmentComponent = CreateDefaultSubobject<ULT_AbilityEquipment>(TEXT("AbilityEquipmentComponent"));
+
+	InteractionComponent = CreateDefaultSubobject<ULT_InteractionComponent>(TEXT("InteractionComponent"));
+
+	InventoryComponent = CreateDefaultSubobject<ULT_InventoryComponent>(TEXT("InventoryComponent"));
 
 	// Note: The skeletal mesh and anim blueprint references on the Mesh component (inherited from Character) 
 	// are set in the derived blueprint asset named ThirdPersonCharacter (to avoid direct content references in C++)
