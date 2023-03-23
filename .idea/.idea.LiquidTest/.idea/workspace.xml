@@ -7,12 +7,6 @@
   <component name="ChangeListManager">
     <list default="true" id="09c14056-9aee-40b6-ad69-db9a79116fcf" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LiquidTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LiquidTest/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Core/Items/PickUp/BP_PickUp.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Core/Items/PickUp/BP_PickUp.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Core/Items/PickUp/DA_PickUp.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Core/Items/PickUp/DA_PickUp.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/LiquidTest/Abilities/LT_AbilityBase.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/LiquidTest/Abilities/LT_AbilityBase.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/LiquidTest/Components/Pickup/LT_PickUpComponent.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/LiquidTest/Components/Pickup/LT_PickUpComponent.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/LiquidTest/Items/LT_ActorInteractuableDataAsset.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/LiquidTest/Items/LT_ActorInteractuableDataAsset.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,7 +159,8 @@
       <option name="presentableId" value="Default" />
       <updated>1678257017880</updated>
       <workItem from="1678257021708" duration="47480000" />
-      <workItem from="1678383934651" duration="2237000" />
+      <workItem from="1678383934651" duration="2835000" />
+      <workItem from="1679297988922" duration="1656000" />
     </task>
     <servers />
   </component>
